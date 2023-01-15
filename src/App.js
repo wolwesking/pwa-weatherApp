@@ -22,7 +22,7 @@ export default class App extends Component {
   }
 
   async componentDidMount() {
-    await fetch("https://api.openweathermap.org/data/2.5/weather?q=Atyrau,kz&APPID=bd32786b7240ee712e3181243e5039ab")
+    await fetch("https://api.openweathermap.org/data/2.5/weather?q=CITY,kz&APPID=APIKEY")
       .then(res => res.json())
       .then(data => {
 
