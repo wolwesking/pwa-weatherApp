@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400&display=swap");
+
+.insideDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  height: 100%;
+  background: linear-gradient(45deg, #C299FE, #A020F0, #3010B0);
+  color: white;
+  font-family: 'M PLUS 1', sans-serif;
+}
+
+.outsideDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  height: 100%;
+  background: linear-gradient(45deg, #4FB0BC, #7EC8B9, #4EB0BC);
+  color: white;
+  font-family: 'M PLUS 1', sans-serif;
+}
+
+.insideImg {
+  margin-top: 5vh;
+  min-height: 180px;
+  height: 50vw;
+  border-radius: 15%;
+}
+
+.outsideImg {
+  margin-top: 5vh;
+  min-height: 180px;
+  height: 50vw;
+  border-radius: 15%;
+}
+
+h1 {
+  font-weight: 100;
+  margin: 0;
+  font-size: 3rem;
+}
+
+.clockDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+}
+
+.timer {
+  min-height: 80px;
+  height: 22vw;
+}
+.time {
+  position: absolute;
+  margin-bottom: 28px;
+  font-size: 10vw;
+}
+
+.weatherDiv  {
+  background: rgba(0, 0, 0, 0.5);
+  height: 9vw;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.15rem;
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div.weatherDiv div {
+  display: flex;
+}
+
+div.weatherDiv div span {
+  margin-right: 5px;
+}
+
+div.weatherDiv div img {
+  height: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
